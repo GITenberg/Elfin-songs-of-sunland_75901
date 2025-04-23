@@ -1,0 +1,3506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>
+      Elfin Songs of Sunland | Project Gutenberg
+    </title>
+    <link rel="icon" href="images/cover.jpg" type="image/x-cover">
+    <style>
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+    h1,h2 {
+    text-align: center; /* all headings centered */
+    clear: both;
+}
+
+/* all font-varients */
+.large   {font-size: 110%;}
+.xlarge  {font-size: 150%;}
+
+.font2 {
+    font-family: "Arial Black", "Arial Rounded MT Bold", "Comic Sans MS", Arial, serif, sans-serif;
+    font-size: 140%;
+    color: black
+    }
+.font3 {
+    font-family: "Britnnic Bold", "Arial Black", "Comic Sans MS", Arial, serif, sans-serif;
+    font-size: 110%;
+    color: black
+    }
+p {
+    margin-top: .51em;
+    text-align: justify;
+    margin-bottom: .49em;
+}
+
+hr {
+    width: 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
+    clear: both;
+}
+
+hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%;}
+@media print { hr.chap {display: none; visibility: hidden;} }
+
+div.chapter {page-break-before: always;}
+h2.nobreak  {page-break-before: avoid;}
+
+
+table {width: 80%; margin-left: 10%; margin-right: 10%;}
+
+.tdl      {text-align: left;}
+.tdr      {text-align: right;vertical-align: bottom;}
+.tdc      {text-align: left;}
+
+.pagenum { /* uncomment the next line for invisible page numbers */
+    /*  visibility: hidden;  */
+    position: absolute;
+    left: 92%;
+    font-size: small;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-indent: 0;
+} /* page numbers */
+
+.bbox     {border: 2px solid; width: 80%; margin-top: 3em; margin-bottom: 3em;
+           margin-left: 10%; margin-right: 10%; background-color: #E6E6FA;}
+
+.bold     {font-weight: bold;}
+
+.center   {text-align: center;}
+
+.smcap    {font-variant: small-caps;}
+
+.allsmcap {font-variant: small-caps; text-transform: lowercase;}
+
+.icaption  {font-variant: small-caps; text-align: center;
+            text-decoration: underline;font-size: smaller}
+
+.cb       {text-align: center;
+           font-weight: bold;}
+
+.mtop1      {margin-top: 1em}
+.mtop3      {margin-top: 3em}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+img.w100 {width: 100%;}
+
+
+.figcenter {
+    margin-left: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: auto;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+
+.figleft {
+    float: left;
+    clear: left;
+    margin-left: 0;
+    margin-bottom: 0.25em;
+    margin-top: 0em;
+    margin-right: 0.4em;
+    padding: 0;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+/* comment out next line and uncomment the following one for floating figleft on ebookmaker output */
+.x-ebookmaker .figleft {float: none; text-align: center; margin-right: 0;}
+/* .x-ebookmaker .figleft {float: left;} */
+
+/* Poetry */
+/* uncomment the next line for centered poetry */
+/* .poetry-container {display: flex; justify-content: center;} */
+.poetry-container {text-align: center;}
+.poetry           {text-align: left; margin-left: 5%; margin-right: 5%;}
+.poetry .stanza   {margin: 1em auto;}
+.poetry .verse    {text-indent: -3em; padding-left: 3em;}
+
+div.poetry {
+    text-align: center
+    }
+div.poem {
+    font-size: 130%;
+    margin: auto auto;
+    text-indent: 0%;
+    display: inline-block;
+    text-align: left
+    }
+.x-ebookmaker div.poem {
+    display: block;
+    margin-left: 1.5em
+    }
+.dpoemlft .dstanzalft {
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
+
+.poetry-container {
+    text-align: center;
+    margin: -1em 0;
+    font-size: 110%; width: 30em;
+    }
+
+.poetry-container2 {
+    display: flex;
+    justify-content: center;
+    }
+
+.ml0 {
+    margin-left: 0
+    }
+.ml2 {
+    margin-left: 2em
+    }
+.figcenter {
+    margin: auto;
+    text-align: center
+    }
+img.drop-cap
+{
+  float: left;
+  margin: 0 0.5em 0 0;
+}
+p.drop-cap:first-letter
+{
+  color: transparent;
+  visibility: hidden;
+  margin-left: -0.9em;
+}
+.upper-case
+{
+  text-transform: uppercase;
+}
+
+figure {margin-left: 0;}
+
+/* @media handheld {
+    img.drop-cap {display: none}
+    float: left;
+    p.drop-cap:first-letter {
+        color: inherit;
+        font-size: 200%;
+        visibility: visible;
+        margin-left: 0
+        }
+} */
+.x-ebookmaker-2 img.drop-cap
+  {
+    display: none;
+  }
+
+.x-ebookmaker-2 p.drop-cap:first-letter
+  {
+    color: inherit;
+    visibility: visible;
+    margin-left: 0em;
+  }
+
+/* Transcriber's notes */
+.transnote {background-color: #E6E6FA;
+    color: black;
+    font-size:small;
+    padding:0.5em;
+    margin-bottom:5em;
+    font-family:sans-serif, serif;
+}
+
+/* Illustration classes */
+.illowp100 {width: 100%;}
+.illowp33 {width: 33%;}
+.x-ebookmaker .illowp33 {width: 100%;}
+.illowp37 {width: 37%;}
+.x-ebookmaker .illowp37 {width: 100%;}
+.illowp48 {width: 48%;}
+.x-ebookmaker .illowp48 {width: 100%;}
+.illowp52 {width: 52%;}
+.x-ebookmaker .illowp52 {width: 100%;}
+.illowp53 {width: 53%;}
+.x-ebookmaker .illowp53 {width: 100%;}
+.illowp54 {width: 54%;}
+.x-ebookmaker .illowp54 {width: 100%;}
+.illowp59 {width: 59%;}
+.x-ebookmaker .illowp59 {width: 100%;}
+.illowp66 {width: 66%;}
+.x-ebookmaker .illowp66 {width: 100%;}
+.illowp68 {width: 68%;}
+.x-ebookmaker .illowp68 {width: 100%;}
+.illowp74 {width: 74%;}
+.x-ebookmaker .illowp74 {width: 100%;}
+.illowp75 {width: 75%;}
+.x-ebookmaker .illowp75 {width: 100%;}
+.illowp87 {width: 87%;}
+.x-ebookmaker .illowp87 {width: 100%;}
+.illowp98 {width: 98%;}
+.x-ebookmaker .illowp98 {width: 100%;}
+/* Illustration classes */
+.illowp75 {width: 75%;}
+.x-ebookmaker .illowp75 {width: 100%;}
+.illowp83 {width: 83%;}
+.x-ebookmaker .illowp83 {width: 100%;}
+.illowp85 {width: 85%;}
+.x-ebookmaker .illowp85 {width: 100%;}
+.illowp86 {width: 86%;}
+.x-ebookmaker .illowp86 {width: 100%;}
+.illowp90 {width: 90%;}
+.x-ebookmaker .illowp90 {width: 100%;}
+.illowp92 {width: 92%;}
+.x-ebookmaker .illowp92 {width: 100%;}
+.illowp94 {width: 94%;}
+.x-ebookmaker .illowp94 {width: 100%;}
+.illowp97 {width: 97%;}
+.x-ebookmaker .illowp97 {width: 100%;}
+
+    </style>
+</head>
+<body>
+<div style='text-align:center'>*** START OF THE PROJECT GUTENBERG EBOOK 75901 ***</div>
+
+<div class="transnote">
+<p class="center xlarge"><a id="Transcribers-Note"></a>Transcriber’s Notes</p>
+<p>1. Certain typographic errors were silently corrected.</p>
+<p>2. Illustrations moved next to Song-titles, were contextually captioned.</p>
+</div>
+
+<p><span class="pagenum" id="Page_i">[Pg i]</span></p>
+
+<div class="x-ebookmaker-drop">
+<figure class="figcenter illowp48" id="cover-page.jpg" style="max-width: 50em;">
+  <img class="w100" src="images/cover-page.jpg" alt="">
+</figure>
+</div>
+
+<div class="chapter x-ebookmaker-drop">
+<p><span class="pagenum" id="Page_ii">[Pg ii]</span></p>
+<h1>Elfin Songs of Sunland</h1>
+<p><span class="pagenum" id="Page_iii">[Pg iii]</span></p>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<div class="bbox">
+
+<p class="center">
+<span class="font2 xlarge">ELFIN SONGS<br>
+OF SUNLAND</span><br>
+<span class="font2">BY CHARLES KEELER</span></p>
+<figure class="figcenter illowp98" id="titlepage1p" style="max-width: 33.1875em;">
+  <img class="w100" src="images/titlepage1p.jpg" alt="">
+</figure>
+
+<p class="cb large"><span class="font3">DECORATIONS <span class="allsmcap">BY</span> LOUISE KEELER<br>
+FOURTH EDITION</span></p>
+
+<figure class="figcenter illowp100" id="titlepage2p" style="max-width: 33.1875em;">
+  <img class="w100" src="images/titlepage2p.jpg" alt="">
+</figure>
+<p class="center bold xlarge">LIVE OAK PUBLISHING COMPANY<br>
+Berkeley California</p>
+</div>
+</div>
+
+<p><span class="pagenum" id="Page_iv">[Pg iv]</span></p>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p class="center">
+<span class="smcap">Copyright 1904 by</span><br>
+CHARLES KEELER<br>
+<br>
+<span class="smcap">Copyright 1904 by</span><br>
+CHARLES KEELER<br>
+(For Second Edition)<br>
+<br>
+<span class="smcap">Copyright 1914 by</span><br>
+CHARLES KEELER<br>
+(For Third Edition)<br>
+<br>
+<span class="smcap">Copyright 1920 by</span><br>
+CHARLES KEELER<br>
+(For Fourth Edition)<br>
+<br>
+<br>
+Decorations by<br>
+LOUISE KEELER<br>
+</p>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_v">[Pg v]</span></p>
+
+<h2 class="nobreak" id="DEDICATION">DEDICATION</h2>
+</div>
+
+<div class="poetry-container2">
+<div class="poetry"><div class="poem">
+<div class="stanza">
+<div class="verse">Elfin songs of sunland,</div>
+<div class="verse">Frolicland and funland;</div>
+<div class="verse">Little rhymes of child hours,</div>
+<div class="verse">Wood elves and wild flowers;</div>
+<div class="verse">Jingles of the forest green,</div>
+<div class="verse">Songs for little Merodine!</div>
+</div></div></div></div>
+
+<figure class="figcenter illowp54" id="image-v" style="max-width: 19.1875em;">
+  <img class="w100" src="images/image-v.jpg" alt="Merodine">
+</figure>
+
+<p><span class="pagenum" id="Page_vi">[Pg vi]</span></p>
+
+<figure class="figcenter illowp100" id="image-vi" style="max-width: 36.6875em;">
+  <img class="w100" src="images/image-vi.jpg" alt="Boy with owl">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_vii">[Pg vii]</span></p>
+
+<h2 class="nobreak" id="NAMES_OF_THE_SONGS">NAMES OF THE SONGS</h2>
+</div>
+
+<table data-summary="contents">
+
+<colgroup>
+  <col style="width: 15%;">
+  <col style="width: 70%;">
+  <col style="width: 15%;">
+</colgroup>
+
+<tbody>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"></td>
+<td class="tdr"></td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"></td>
+<td class="tdr">PAGE</td>
+</tr>
+
+<tr><td class="tdl"></td><td class="tdc"></td><td class="tdr"></td></tr>
+<tr>
+<td class="tdl mtop1" colspan="3"><a href="#A_RING_AROUND_OF_PLAYTIME"><i>I. A RING AROUND OF PLAYTIME</i></a></td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#COME_AWAY_CHILDREN"><span class="smcap">Come Away Children</span></a></td>
+<td class="tdr">1</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#HAND-ORGAN_MAN"><span class="smcap">Hand-Organ Man</span></a></td>
+<td class="tdr">3</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#POPPING_CORN"><span class="smcap">Popping Corn</span></a></td>
+<td class="tdr">5</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_BAKER_MAN"><span class="smcap">The Baker Man</span></a></td>
+<td class="tdr">7</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#TOPS"><span class="smcap">Tops</span></a></td>
+<td class="tdr">9</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_KITE"><span class="smcap">The Kite</span></a></td>
+<td class="tdr">11</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_SEE-SAW"><span class="smcap">The See-Saw</span></a></td>
+<td class="tdr">13</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#SOAP_BUBBLES"><span class="smcap">Soap Bubbles</span></a></td>
+<td class="tdr">14</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_BRASS_BAND"><span class="smcap">The Brass Band</span></a></td>
+<td class="tdr">15</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_MERRY-GO-ROUND"><span class="smcap">The Merry-go-Round</span></a></td>
+<td class="tdr">17</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_OVERLAND_FLYER"><span class="smcap">The Overland Flyer</span></a></td>
+<td class="tdr">19</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#SPORTS"><span class="smcap">Sports</span></a></td>
+<td class="tdr">21</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_SWIMMING_POOL"><span class="smcap">The Swimming Pool</span></a></td>
+<td class="tdr">22</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#A_SONG_OF_LEONARDE"><span class="smcap">A Song of Leonarde</span></a></td>
+<td class="tdr">24</td>
+</tr>
+
+<tr><td class="tdl"></td><td class="tdc"></td><td class="tdr"></td></tr>
+<tr>
+<td class="tdl mtop1" colspan="3"><a href="#SONGS_OF_THE_WILDWOOD"><i>II. SONGS OF THE WILDWOOD</i></a></td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#A_CHILDS_BOOK"><span class="smcap">A Child’s Book</span></a></td>
+<td class="tdr">27</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#A_LESSON"><span class="smcap">A Lesson</span></a></td>
+<td class="tdr">28</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#A_WINTER_WALK"><span class="smcap">A Winter Walk</span></a></td>
+<td class="tdr">29</td>
+</tr>
+
+<tr>
+<td class="tdl" colspan="3"><span class="pagenum" id="Page_viii">[Pg viii]</span></td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#WINTER_RAIN_IN_CALIFORNIA"><span class="smcap">Winter Rain in California</span></a></td>
+<td class="tdr">30</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#MR_WIND"><span class="smcap">Mr. Wind</span></a></td>
+<td class="tdr">32</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#WILD_WOOD_BOGIES"><span class="smcap">Wild-Wood Bogies</span></a></td>
+<td class="tdr">34</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_COYOTE"><span class="smcap">The Coyote</span></a></td>
+<td class="tdr">36</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_HUMMINGBIRD"><span class="smcap">The Hummingbird</span></a></td>
+<td class="tdr">38</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_ROAD-RUNNER"><span class="smcap">The Roadrunner</span></a></td>
+<td class="tdr">40</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_BURROWING_OWL"><span class="smcap">The Burrowing Owl</span></a></td>
+<td class="tdr">42</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_CRESTED_JAY"><span class="smcap">The Crested Jay</span></a></td>
+<td class="tdr">44</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#TROUBLE_IN_THE_TREES"><span class="smcap">Trouble in the Trees</span></a></td>
+<td class="tdr">46</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_SQUIRREL"><span class="smcap">The Squirrel</span></a></td>
+<td class="tdr">48</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_POLLIWOG_THAT_LOST_ITS_TAIL"><span class="smcap">The Polliwog That Lost Its Tail</span></a></td>
+<td class="tdr">50</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_HORNED_TOAD"><span class="smcap">The Horned Toad</span></a></td>
+<td class="tdr">52</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#A_FAIRY_IN_A_FLOWER"><span class="smcap">A Fairy in a Flower</span></a></td>
+<td class="tdr">53</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#BUTTERCUP"><span class="smcap">Buttercup</span></a></td>
+<td class="tdr">55</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_COLUMBINE"><span class="smcap">The Columbine</span></a></td>
+<td class="tdr">56</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_LEOPARD_LILY"><span class="smcap">The Leopard Lily</span></a></td>
+<td class="tdr">57</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#JOHNNY_JUMP-UP"><span class="smcap">Johnny Jump-Up</span></a></td>
+<td class="tdr">58</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#SONG_OF_THE_BROWN_LILY"><span class="smcap">Song of the Brown Lily</span></a></td>
+<td class="tdr">59</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#SHOOTING_STAR_FLOWERS"><span class="smcap">Shooting Star Flowers</span></a></td>
+<td class="tdr">60</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_SCARLET_LARKSPUR"><span class="smcap">The Scarlet Larkspur</span></a></td>
+<td class="tdr">61</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_TRILLIUM"><span class="smcap">The Trillium</span></a></td>
+<td class="tdr">62</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#BABY_BLUE-EYES"><span class="smcap">Baby Blue-Eyes</span></a></td>
+<td class="tdr">63</td>
+</tr>
+
+<tr>
+<td class="tdl" colspan="3"><span class="pagenum" id="Page_ix">[Pg ix]</span></td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#WHO_KNOWS_ROSALIE"><span class="smcap">Who Knows Rosalie</span></a></td>
+<td class="tdr">64</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#TO_A_WILD_ROSE"><span class="smcap">To a Wild Rose</span></a></td>
+<td class="tdr">65</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_QUEEN_OF_THE_FAIRIES"><span class="smcap">The Queen of the Fairies</span></a></td>
+<td class="tdr">66</td>
+</tr>
+
+<tr><td class="tdl"></td><td class="tdc"></td><td class="tdr"></td></tr>
+
+<tr>
+<td class="tdl mtop1" colspan="3"><a href="#QUIPS_AND_CRANKS"><i>III. QUIPS AND CRANKS</i></a></td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#MY_AUNTIE"><span class="smcap">My Auntie</span></a></td>
+<td class="tdr">71</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_BEAR_HUNTER"><span class="smcap">The Bear Hunter</span></a></td>
+<td class="tdr">73</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#TRYING_TO_PLAY"><span class="smcap">Trying to Play</span></a></td>
+<td class="tdr">74</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#MAGGIE_MULDOON"><span class="smcap">Maggie Muldoon</span></a></td>
+<td class="tdr">75</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_BOOBITY_BUMPKIN"><span class="smcap">The Boobity Bumpkin</span></a></td>
+<td class="tdr">76</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#FARMER_JONESS_GOAT"><span class="smcap">Farmer Jones’ Goat</span></a></td>
+<td class="tdr">77</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#POOR_MR_MIDAS"><span class="smcap">Poor Mr. Midas</span></a></td>
+<td class="tdr">78</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THREE_WISE_MEN"><span class="smcap">Three Wise Men</span></a></td>
+<td class="tdr">79</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#A_GOBBLER_IN_TROUBLE"><span class="smcap">A Gobbler in Trouble</span></a></td>
+<td class="tdr">80</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_TALE_OF_A_POOR_LITTLE"><span class="smcap">The Tale of a Poor Little Worm</span></a></td>
+<td class="tdr">82</td>
+</tr>
+
+<tr><td class="tdl"></td><td class="tdc"></td><td class="tdr"></td></tr>
+
+<tr>
+<td class="tdl mtop1" colspan="3"><a href="#RHYMES_FOR_TODDLERS"><i>IV. RHYMES FOR TODDLERS</i></a></td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#TO_PUSSY_WHITE"><span class="smcap">Pussy White</span></a></td>
+<td class="tdr">87</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#CHINA_DOLLS"><span class="smcap">China Dolls</span></a></td>
+<td class="tdr">88</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#DOLLIES_LULLABY"><span class="smcap">Dollie’s Lullaby</span></a></td>
+<td class="tdr">90</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#BABY_LIFE"><span class="smcap">Baby Life</span></a></td>
+<td class="tdr">92</td>
+</tr>
+
+<tr>
+<td class="tdl" colspan="3"><span class="pagenum" id="Page_x">[Pg x]</span></td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#LITTLE_BROTHER"><span class="smcap">Little Brother</span></a></td>
+<td class="tdr">93</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#PLAYING_HORSE"><span class="smcap">Playing Horse</span></a></td>
+<td class="tdr">94</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#MY_DONKEY"><span class="smcap">My Donkey</span></a></td>
+<td class="tdr">95</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#BABY_IN_THE_BARNYARD"><span class="smcap">Baby in the Barnyard</span></a></td>
+<td class="tdr">96</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#BABYS_GOOD-NIGHT"><span class="smcap">Baby’s Good Night</span></a></td>
+<td class="tdr">98</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#DOGS"><span class="smcap">Dogs</span></a></td>
+<td class="tdr">100</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#MY_ANIMALS"><span class="smcap">My Animals</span></a></td>
+<td class="tdr">101</td>
+</tr>
+
+<tr><td class="tdl"></td><td class="tdc"></td><td class="tdr"></td></tr>
+<tr>
+<td class="tdl mtop1" colspan="3"><a href="#BROWN_BABY_BALLADS"><i>V. BROWN BABY BALLADS</i></a></td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#SIX_LITTLE_ESKIMO"><span class="smcap">Six Little Eskimo</span></a></td>
+<td class="tdr">105</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#PICCANINNY_LULLABY"><span class="smcap">Piccaninny Lullaby</span></a></td>
+<td class="tdr">107</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_MEXICAN_BABIES"><span class="smcap">The Mexican Babies</span></a></td>
+<td class="tdr">109</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_LITTLE_PIUTE"><span class="smcap">The Little Piute</span></a></td>
+<td class="tdr">111</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#THE_HONOLULU_BOY"><span class="smcap">The Honolulu Boy</span></a></td>
+<td class="tdr">113</td>
+</tr>
+
+<tr>
+<td class="tdl"></td>
+<td class="tdc"><a href="#A_SAMOA_SLEEPY-SONG"><span class="smcap">A Samoa Sleepy Song</span></a></td>
+<td class="tdr">114</td>
+</tr>
+
+</tbody>
+</table>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_xi">[Pg xi]</span></p>
+
+<h2 class="nobreak" id="A_RING_AROUND_OF_PLAYTIME">A RING AROUND OF PLAYTIME</h2>
+</div>
+<hr class="chap">
+
+<p><span class="pagenum" id="Page_1">[Pg 1]</span></p>
+
+<figure class="figcenter illowp100" id="pageheader" style="max-width: 45em;">
+  <img class="w100" src="images/pageheader.jpg" alt="">
+<p class="cb xlarge">Elfin Songs of Sunland</p>
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter">
+<h2 class="nobreak" id="COME_AWAY_CHILDREN">COME AWAY CHILDREN</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft">
+<div class="dstanzalft">
+<figure style="max-width: 4.8125em;">
+<img class="drop-cap" src="images/image001-c.jpg" alt="">
+</figure>
+<p class="drop-cap"><span class="upper-case">COME</span> away children, frisk along with me,<br>
+<span class="ml0">For I’ll be the piper and merry will we be;</span><br>
+<span class="ml0">With laughter and dancing and sports to make us gay,</span><br>
+<span class="ml0">O there’s sunshine and there’s singing—come away, come away!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Come away children, leave the town behind;</span><br>
+<span class="ml0">Follow me to Happy-land and see what we shall find,</span><br>
+<span class="ml0">Where the flowers smile to see you and the birdies trill and play</span><br>
+<span class="ml0">Just because the sun is shining—come away, come away!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Come away children, I’ll pipe an elfin tune</span><br>
+<span class="ml0">And we’ll play that we are fairies dancing in the summer moon;</span><br>
+<span class="ml0">We’ll pretend that we are flowers in the carnival of May</span><br>
+<span class="ml0">If you’ll join the merry crew and come away, come away!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_3">[Pg 3]</span></p>
+
+<h2 class="nobreak" id="HAND-ORGAN_MAN">HAND-ORGAN MAN</h2>
+</div>
+
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.8125em;">
+  <img class="drop-cap" src="images/image003-h.jpg" alt="">
+</figure>
+<p class="drop-cap"><span class="upper-case">HAND-ORGAN MAN</span>, O hand-organ man,<br>
+<span class="ml0">Grind out the music as fast as you can,</span><br>
+<span class="ml0">With a tum-turi tum-turi hippity hay,</span><br>
+<span class="ml0">And a red-coated monkey to frolic and play.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">The organ rings merrily on down the street,</span><br>
+<span class="ml0">And the very policeman steps out to your beat,</span><br>
+<span class="ml0">When, sucking her stick of molasses, comes Jennie</span><br>
+<span class="ml0">To give that impertinent monkey a penny.</span></p>
+</div></div>
+
+<p><span class="pagenum" id="Page_4">[Pg 4]</span></p>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">O toodle de toodle de, hand-organ grinder,</span><br>
+<span class="ml0">No man in the city to children is kinder,</span><br>
+<span class="ml0">And my little kid brother just played not to care</span><br>
+<span class="ml0">When the monkey jumped on him and grabbed at his hair.</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_5">[Pg 5]</span></p>
+
+<h2 class="nobreak" id="POPPING_CORN">POPPING CORN</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft">
+<div class="dstanzalft">
+<figure style="max-width: 4.8125em;">
+  <img class="drop-cap" src="images/image005-c.jpg" alt="">
+</figure>
+<p class="drop-cap">COME, you merry little fellows,<br>
+<span class="ml0">Poke the coals and blow the bellows;</span><br>
+<span class="ml0">Here’s the popper, shell the corn,</span><br>
+<span class="ml0">And let it pop this winter morn.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Pop-a-tee-pop-pop-pop!</span><br>
+<span class="ml0">See the kernels skip and hop,</span><br>
+<span class="ml0">See them puff out full and white,</span><br>
+<span class="ml0">Hear them crackle in affright.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Now shake, shake, shake,</span><br>
+<span class="ml0">Till your hands and faces bake;</span><br>
+<span class="ml0">Tip it, turn it,</span><br>
+<span class="ml0">Or you’ll burn it,</span><br>
+<span class="ml0">And a dreadful muss you’ll make.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="pagenum" id="Page_6">[Pg 6]</span>
+<span class="ml0">Now it’s done we’ll have a feast;</span><br>
+<span class="ml0">Smallest hands must take the least!</span><br>
+<span class="ml0">Hot and crisp and white and sweet,—</span><br>
+<span class="ml0">Isn’t this a jolly treat!</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp94" id="image006" style="max-width: 25.25em;">
+  <img class="w100" src="images/image006.jpg" alt="Around the fire popping corn">
+</figure>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_7">[Pg 7]</span></p>
+
+<h2 class="nobreak" id="THE_BAKER_MAN">THE BAKER MAN</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.8125em;">
+  <img class="drop-cap" src="images/image007.jpg" alt="">
+</figure>
+<p class="drop-cap">O WHO do you think is the baker man,<br>
+<span class="ml0">And how do you think he makes his cake?</span><br>
+<span class="ml0">He mixes his dough in an old tin can</span><br>
+<span class="ml0">And puts it out in the sun to bake.</span><br>
+<span class="ml0">He pats pats pats at his little mud pies;</span><br>
+<span class="ml0">He rounds them and rolls them and looks so wise.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">The baker man is my brother Ned,</span><br>
+<span class="ml0">And out in the garden he’s working away,</span><br>
+<span class="ml0">Right by the scarlet geranium bed,</span><br>
+<span class="ml0">And his hands and his face are just covered with clay,</span><br>
+<span class="ml0">As he pats pats pats at his little mud pies;</span><br>
+<span class="pagenum" id="Page_8">[Pg 8]</span>
+<span class="ml0">As he rounds them and rolls them and looks so wise.</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp92" id="image008" style="max-width: 20em;">
+  <img class="w100" src="images/image008.jpg" alt="Ned making mud pies in the garden">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_9">[Pg 9]</span></p>
+
+<h2 class="nobreak" id="TOPS">TOPS</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.8125em;">
+  <img class="drop-cap" src="images/image009-h.jpg" alt="">
+</figure>
+<p class="drop-cap">HOW would you like to be a top,<br>
+<span class="ml0">To be made to spin till you couldn’t stop;—</span><br>
+<span class="ml0">To be pitched head first from a coil of string,</span><br>
+<span class="ml0">To be made to dance till you sigh and swing?</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">There’s the top that is whipped and the top with a peg</span><br>
+<span class="ml0">That gouges its brother and leaves him to beg;</span><br>
+<span class="ml0">There’s the musical top with holes in its side,</span><br>
+<span class="ml0">That is said to have played till it fell down and died.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="pagenum" id="Page_10">[Pg 10]</span>
+<span class="ml0">But of all the tops that ever were spun,</span><br>
+<span class="ml0">The biggest are those of the old daddy Sun;</span><br>
+<span class="ml0">And I’ll wager he has just the jolliest sport</span><br>
+<span class="ml0">With the Earth and with Saturn and tops of that sort.</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp59" id="image010" style="max-width: 19.9375em;">
+  <img class="w100" src="images/image010.jpg" alt="Top spins from a coil of string">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_11">[Pg 11]</span></p>
+
+<h2 class="nobreak" id="THE_KITE">THE KITE</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure class="figleft illowp74" id="image011-b" style="max-width: 4.8125em;">
+  <img class="drop-cap" src="images/image011-b.jpg" alt="">
+</figure>
+<p class="drop-cap">BLOW, wind, blow, wind,<br>
+<span class="ml2">Fly, kite, fly!</span><br>
+<span class="ml0">On and on you go, wind,</span><br>
+<span class="ml2">Up, kite, high!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Out sweeps your tail, kite,</span><br>
+<span class="ml2">Tug on the string;</span><br>
+<span class="ml0">Far away you sail, kite,</span><br>
+<span class="ml2">Proudly you swing.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">If I were like you, kite,</span><br>
+<span class="ml2">One white wing,</span><br>
+<span class="ml0">With nothing else to do, kite,</span><br>
+<span class="ml2">But tug upon the string.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="pagenum" id="Page_12">[Pg 12]</span>
+<span class="ml0">I’d sail up from town, kite,</span><br>
+<span class="ml2">To see the moon’s back,</span><br>
+<span class="ml0">And then slide down, kite,</span><br>
+<span class="ml2">The Milky-Way’s track.</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp52" id="image012" style="max-width: 19.8125em;">
+  <img class="w100" src="images/image012.jpg" alt="Flying a kite">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_13">[Pg 13]</span></p>
+
+<h2 class="nobreak" id="THE_SEE-SAW">THE SEE-SAW</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image011-b.jpg" alt="">
+</figure>
+
+<p class="drop-cap">O BALANCE the ladder atop of the rail,<br>
+<span class="ml0">And up we go, down we go, all in a gale,</span><br>
+<span class="ml0">Singing like birds as we teeter away,</span><br>
+<span class="ml0">Bouncing and jouncing each other in play.</span></p><br>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">You are Queen Sally and I am King Peter,</span><br>
+<span class="ml0">And where are we going astride of our teeter?</span><br>
+<span class="ml0">Riding to fairyland, over the moon.</span><br>
+<span class="ml0">Up we go,—down!—and we’ll be there soon.</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_14">[Pg 14]</span></p>
+
+<h2 class="nobreak" id="SOAP_BUBBLES">SOAP BUBBLES</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image014-f.jpg" alt="">
+</figure>
+
+<p class="drop-cap">FLUBBLETY, flopplety, bubble and spatter,<br>
+<span class="ml0">Soap-suds and water and clay-pipes and chatter!</span><br>
+<span class="ml0">Puff little cheeklets and blow, blow, blow!</span><br>
+<span class="ml0">Look at the bubbles beginning to grow!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">O what a beauty, all purple and pink!</span><br>
+<span class="ml0">Whiff! it has vanished before you can think!</span><br>
+<span class="ml0">Now look at this one with clouds and a tree</span><br>
+<span class="ml0">Swimming about in a gold-lighted sea!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Hurrah, it is floating away through the air!</span><br>
+<span class="ml0">Car of the fairies was never more fair.</span><br>
+<span class="ml0">Zip comes a goblin and clips it away!</span><br>
+<span class="ml0">What will the fairy who rode in it say?</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_15">[Pg 15]</span></p>
+
+<h2 class="nobreak" id="THE_BRASS_BAND">THE BRASS BAND</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image015-i.jpg" alt="I’m going to be a soldier when I get to be a man">
+</figure>
+
+<p class="drop-cap">IT makes me feel so fine and gay<br>
+<span class="ml0">When drums are beat and bugles play;</span><br>
+<span class="ml0">I think I’d like to be a king</span><br>
+<span class="ml0">And rule the earth and everything.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">The big bass-drum</span><br>
+<span class="ml0">Goes dum, dum, dum,</span><br>
+<span class="ml0">The horns play tweedle dee,</span><br>
+<span class="ml0">And every toot and every beat</span><br>
+<span class="ml0">Just catches hold of my two feet</span><br>
+<span class="ml0">And makes them run away from me.</span><br>
+<span class="ml0">And this is what I hear them say</span><br>
+<span class="ml0">As down the street they march away:</span><br>
+<span class="ml0">Te dum ratta dum, ratta dum, dum dee,</span><br>
+<span class="pagenum" id="Page_16">[Pg 16]</span>
+<span class="ml0">Te dum, ratta dum, shout hurrah boys with me!</span><br>
+<span class="ml0">Tweedle twee twee twee, tweedle anything you can,</span><br>
+<span class="ml0">For I’m going to be a soldier when I get to be a man!</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp66" id="image016" style="max-width: 20.6875em;">
+  <img class="w100" src="images/image016.jpg" alt="I’m going to be a soldier when I get to be a man">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_17">[Pg 17]</span></p>
+
+<h2 class="nobreak" id="THE_MERRY-GO-ROUND">THE MERRY-GO-ROUND</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image017-s.jpg" alt="">
+</figure>
+
+<p class="drop-cap">STAND still, Mr. Horse, while I jump on your back<br>
+<span class="ml0">To ride in the ring of the whirligig’s track.</span><br>
+<span class="ml0">The boys and girls shout as the man cries, “Hold fast.”</span><br>
+<span class="ml0">The music is playing—we’re started at last!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">O faster and faster we rock and we spin</span><br>
+<span class="ml0">Around, keeping time to the musical din,</span><br>
+<span class="ml0">Then I pull on my reins and cry “Whoa!” to the horse,</span><br>
+<span class="ml0">For that is the right way to stop him, of course.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">But we go and we go and we don’t mind a pin</span><br>
+<span class="pagenum" id="Page_18">[Pg 18]</span><span class="ml0">If we end where we started and have to begin</span><br>
+<span class="ml0">On the merry-go-round, the merry-go-round—</span><br>
+<span class="ml0">’Tis the best kind of travel I ever have found!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_19">[Pg 19]</span></p>
+
+<h2 class="nobreak" id="THE_OVERLAND_FLYER">THE OVERLAND FLYER</h2>
+</div>
+
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image019-t.jpg" alt="">
+</figure>
+
+<p class="drop-cap">TO-TOO! to-too! Ka-ding, ka-dong!<br>
+<span class="ml0">Down the mole comes the flyer a-zipping along,—</span><br>
+<span class="ml0">Smoke clouds panting and hissing of steam,</span><br>
+<span class="ml0">Rattling of rails and a sudden scream!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">The iron dragon snorts up to the station,</span><br>
+<span class="ml0">The proudest beast in the wide creation;</span><br>
+<span class="ml0">Fed on fire it puffs and blows,</span><br>
+<span class="ml0">Cyclops-eyed like a fiend it glows.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">We kiss our hands to the friends by the Bay,</span><br>
+<span class="ml0">On the dragon’s tail we are whisked away,</span><br>
+<span class="ml0">And faster we whiz by the glistening shore,—</span><br>
+<span class="ml0">Towns spin past as we ride with a roar.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="pagenum" id="Page_20">[Pg 20]</span>
+<span class="ml0">Now the iron throat is gasping astrain</span><br>
+<span class="ml0">As the beast up the mountains is dragging his train.</span><br>
+<span class="ml0">O where are you taking us, monster of steel?</span><br>
+<span class="ml0">Out in the darkness the pine-trees reel!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Over the desert we swing and fly,</span><br>
+<span class="ml0">Towns and prairies are flashing by;</span><br>
+<span class="ml0">When, lo! to your castle you plunge in the night,—</span><br>
+<span class="ml0">The great walls tower in ghostly light.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Does a princess live in that tall black tower?</span><br>
+<span class="ml0">Are all of the people here under your power?</span><br>
+<span class="ml0">I never was certain that dragons were true</span><br>
+<span class="ml0">Till I got on your tail and rode with you!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_21">[Pg 21]</span></p>
+
+<h2 class="nobreak" id="SPORTS">SPORTS</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image021-s.jpg" alt="">
+</figure>
+
+<p class="drop-cap">SNAP-the-whip and tug-of-war—<br>
+<span class="ml0">What is all this tussle for?</span><br>
+<span class="ml0">Hare-and-hounds and prisoners-base,</span><br>
+<span class="ml0">Just to make you puff and race!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Balls to bat and balls to kick</span><br>
+<span class="ml0">Make you nimble, make you quick;</span><br>
+<span class="ml0">And anyhow I like to play,</span><br>
+<span class="ml0">So come on boys,—hurray, hurray!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_22">[Pg 22]</span></p>
+
+<h2 class="nobreak" id="THE_SWIMMING_POOL">THE SWIMMING POOL</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image022-w.jpg" alt="">
+</figure>
+
+<p class="drop-cap">WE boys love to swim on a hot summer day<br>
+<span class="ml2">In the pool where the pond-lilies float;</span><br>
+<span class="ml0">There’s Willie and Frankie and Bennie and Jay</span><br>
+<span class="ml2">Adrift in a leaky old boat.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">As Ben splashes under, a kingfisher cries:</span><br>
+<span class="ml2">“You’ll frighten my fish with your noise,”</span><br>
+<span class="ml0">While the frog on the lily-pad croaks in surprise:</span><br>
+<span class="ml2">“What awkward great creatures are boys!”</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">The poor little catfish way down in the mud</span><br>
+<span class="ml2">Can’t imagine what’s coming its way</span><br>
+<span class="pagenum" id="Page_23">[Pg 23]</span><span class="ml0">As Frank dives head-first with a splash and a thud,</span><br>
+<span class="ml2">Close followed by Willie and Jay.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Then to lie in the sand when the swimming is done,</span><br>
+<span class="ml2">While the skater-bugs dance on the stream!</span><br>
+<span class="ml0">Just a tickle of wind and a shower of sun</span><br>
+<span class="ml2">And a sigh of content as we dream!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_24">[Pg 24]</span></p>
+
+<h2 class="nobreak" id="A_SONG_OF_LEONARDE">A SONG OF LEONARDE</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image024-s.jpg" alt="">
+</figure>
+
+<p class="drop-cap">SUNSHINE boy of the world of play,<br>
+<span class="ml0">Laughing out in the wind away,</span><br>
+<span class="ml0">Singing free as a song-bird wild,—</span><br>
+<span class="ml0">O that is the way of my elfin child!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Love in the heart thro’ the day-bright hours,</span><br>
+<span class="ml0">Joy on the lips like the smiling flowers,</span><br>
+<span class="ml0">Peace on the face when the night is starred</span><br>
+<span class="ml0">And sleep steals over my Leonarde.</span></p>
+</div></div></div></div>
+
+<p><span class="pagenum" id="Page_25">[Pg 25]</span></p>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_26">[Pg 26]</span></p>
+<h2 class="nobreak" id="SONGS_OF_THE_WILDWOOD">SONGS OF THE WILDWOOD</h2>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_27">[Pg 27]</span></p>
+<h2 class="nobreak" id="A_CHILDS_BOOK">A CHILD’S BOOK</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image027a-t.jpg" alt="">
+</figure>
+
+<p class="drop-cap">THERE are many good books, my child,<br>
+<span class="ml2">But the best of them all for you</span><br>
+<span class="ml0">Is the book that is hid in the greenwood wild,</span><br>
+<span class="ml2">All bound in a cover of blue.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">’Tis the book of the birds and the bees,</span><br>
+<span class="ml2">Of the flowers and the fish in the brook;</span><br>
+<span class="ml0">You may learn how to read if you go to the trees</span><br>
+<span class="ml2">And open your eyes and look.</span></p>
+</div></div></div></div>
+
+<br>
+<figure class="figcenter illowp87" id="image027b" style="max-width: 18em;">
+  <img class="w100" src="images/image027b.jpg" alt="A child holds a book">
+</figure>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_28">[Pg 28]</span></p>
+
+<h2 class="nobreak" id="A_LESSON">A LESSON</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image028a-t.jpg" alt="">
+</figure>
+
+<p class="drop-cap">TELL me little spider,<br>
+<span class="ml2">Who taught you how to spin?</span><br>
+<span class="ml0">Tell me little minnow,</span><br>
+<span class="ml2">How you learned to use your fin?</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Tell me little swallow,</span><br>
+<span class="ml2">Who taught you how to fly?</span><br>
+<span class="ml0">And they each said, “It is easy</span><br>
+<span class="ml2">If you only try and try.”</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp66" id="image028b" style="max-width: 18.9375em;">
+  <img class="drop-cap" src="images/image028b.jpg" alt="How? It is easy if you try">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_29">[Pg 29]</span></p>
+
+<h2 class="nobreak" id="A_WINTER_WALK">A WINTER WALK</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image029-i.jpg" alt="">
+</figure>
+
+<p class="drop-cap">IN the Berkeley Hills for miles away<br>
+<span class="ml0">I went a-roaming one winter’s day,</span><br>
+<span class="ml0">And what do you think I saw, my dear?</span><br>
+<span class="ml0">A place where the sky came down to the hill,</span><br>
+<span class="ml0">And a big white cloud on the fresh green grass,</span><br>
+<span class="ml0">And bright red berries my basket to fill,</span><br>
+<span class="ml0">And mustard that grew in a golden mass,—</span><br>
+<span class="ml0">All on a winter’s day, my dear!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_30">[Pg 30]</span></p>
+
+<h2 class="nobreak" id="WINTER_RAIN_IN_CALIFORNIA">WINTER RAIN IN CALIFORNIA</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image030-s.jpg" alt="">
+</figure>
+
+<p class="drop-cap">SEE the little drops of rain,<br>
+<span class="ml2">Falling, falling,</span><br>
+<span class="ml2">Softly calling</span><br>
+<span class="ml0">Flowers back to life again.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">First the blades of grass appear,</span><br>
+<span class="ml2">Upward creeping,</span><br>
+<span class="ml2">Shyly peeping</span><br>
+<span class="ml0">O’er the meadow far and near.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Then the mustard spreads its gold,—</span><br>
+<span class="ml2">Opes its flowers</span><br>
+<span class="ml2">To the showers,</span><br>
+<span class="ml0">Little heeding winter’s cold.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="pagenum" id="Page_31">[Pg 31]</span>
+<span class="ml0">Poppies’ velvet petals glow;</span><br>
+<span class="ml2">Each new-comer</span><br>
+<span class="ml2">Thinks ’tis summer,</span><br>
+<span class="ml0">Though the winter breezes blow.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">And the little drops of rain,</span><br>
+<span class="ml2">Softly falling</span><br>
+<span class="ml2">Still are calling</span><br>
+<span class="ml0">Flowers forth on hill and plain.</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_32">[Pg 32]</span></p>
+
+<h2 class="nobreak" id="MR_WIND">MR. WIND</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image032-o.jpg" alt="">
+</figure>
+
+<p class="drop-cap">O APRIL fields are fair to see—<br>
+<span class="ml0">Tum tiddle tum, tiddle tum tum tee!</span><br>
+<span class="ml0">The grass and the snow play at hide and seek,</span><br>
+<span class="ml0">And the sun ’round the rim of a cloud will peek;</span><br>
+<span class="ml0">O fie and fiddle and ha ha he!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Up came an old man as I sang my song,</span><br>
+<span class="ml0">With a “Hi, Johnnie, hi; skip along, skip along!”</span><br>
+<span class="ml0">“And who are you, sir?” said I; and quoth he:</span><br>
+<span class="ml0">“Mr. Wind is my name, hop along with me”;</span><br>
+<span class="ml0">So we skipped and we hopped along long long.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="pagenum" id="Page_33">[Pg 33]</span>
+<span class="ml0">O his beard was towsled, his hair blew free—</span><br>
+<span class="ml0">Tum tiddle tum; little matter to me!</span><br>
+<span class="ml0">For he whistled and piped as we danced away,</span><br>
+<span class="ml0">And the best of companions I found him in play—</span><br>
+<span class="ml0">O fie and fiddle and ha ha he!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_34">[Pg 34]</span></p>
+
+<h2 class="nobreak" id="WILD_WOOD_BOGIES">WILD WOOD BOGIES</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image034-h.jpg" alt="">
+</figure>
+
+<p class="drop-cap">HIST little toddlekins, whisk and away!<br>
+<span class="ml0">Now is the time for the bogies to play;</span><br>
+<span class="ml0">Patter of foot-pads and eyes brightly glowing,</span><br>
+<span class="ml0">Noses that sniffle the night breezes blowing,</span><br>
+<span class="ml0">Bogies are romping the wildwood in glee,</span><br>
+<span class="ml0">Frisking and scampering, nimble and free.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Who are the velvet-foot, fire-eyed bogies?</span><br>
+<span class="ml0">Coons and coyotes and wild woodland roguies!</span><br>
+<span class="ml0">Playing at night-time when baby’s asleep;</span><br>
+<span class="ml0">Whisk! did you see that ghost jack-rabbit leap?</span><br>
+<span class="ml0">“Boo!” and “Boo-hoo!” cries the fluffy horned-owl,</span><br>
+<span class="ml0">And the wolf in the pine-woods calls back with a howl.</span></p><br>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="pagenum" id="Page_35">[Pg 35]</span>
+<span class="ml0">The panther slinks on in the trail of the deer,</span><br>
+<span class="ml0">The wood-rats have run to their tunnels in fear,</span><br>
+<span class="ml0">And down the steep mountain with snuffling and shuffling</span><br>
+<span class="ml0">A clumsy she-bear with her cubbies is scuffling;</span><br>
+<span class="ml0">For night is the time for the bogies to roam,—</span><br>
+<span class="ml0">Hist, little toddlekins, fly to your home!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_36">[Pg 36]</span></p>
+
+<h2 class="nobreak" id="THE_COYOTE">THE COYOTE</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image036-c.jpg" alt="">
+</figure>
+
+<p class="drop-cap">CROUCHING in his monkish gray,<br>
+<span class="ml0">Crunching at his dying prey,</span><br>
+<span class="ml0">Furtive eyes and pricking ears,</span><br>
+<span class="ml0">Haunted by a hundred fears!—</span><br>
+<span class="ml0">Yet the cotton-tail trembles to see him pass</span><br>
+<span class="ml0">With his pat pat patter on the parching grass!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Lolling tongue and panting sides,—</span><br>
+<span class="ml0">’Mid the tawny grass he hides.</span><br>
+<span class="ml0">Lowered is his bushy tail,</span><br>
+<span class="ml0">Keen of snout he sniffs the trail;</span><br>
+<span class="ml0">But he yelps and howls like a mad thing at night,</span><br>
+<span class="ml0">With his kai yi yi in the moon’s dim light.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="pagenum" id="Page_37">[Pg 37]</span>
+<span class="ml0">Friendless prowler, sage-brush thief,</span><br>
+<span class="ml0">Hunted rover, desert chief!</span><br>
+<span class="ml0">Even you who friendless roam</span><br>
+<span class="ml0">Have a loving mate at home,—</span><br>
+<span class="ml0">And her little ones yelp in their lair with delight</span><br>
+<span class="ml0">As she pat pat patters anear through the night.</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp90" id="image037" style="max-width: 20.25em;">
+  <img class="w100" src="images/image037.jpg" alt="A coyote">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_38">[Pg 38]</span></p>
+
+<h2 class="nobreak" id="THE_HUMMINGBIRD">THE HUMMINGBIRD</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image038-b.jpg" alt="">
+</figure>
+
+<p class="drop-cap">BUZ-Z! whir-r!—a flash and away!<br>
+<span class="ml0">A midget bejeweled ’mid flowers at play!</span><br>
+<span class="ml0">A snip of a birdling, the blossom-bells’ king,</span><br>
+<span class="ml0">A waif of the sun-beams on quivering wing!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">O prince of the fairies, O pigmy of fire,</span><br>
+<span class="ml0">Will nothing those brave little wings of yours tire?</span><br>
+<span class="ml0">You follow the flowers from southern lands sunny,</span><br>
+<span class="ml0">You pry amid petals all summer for honey.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Now rest on a twig, tiny flowerland sprite,</span><br>
+<span class="ml0">Your dear little lady sits near in delight;</span><br>
+<span class="ml0">In a wee felted basket she lovingly huddles,—</span><br>
+<span class="ml0">Two dots of white eggs to her warm breast she cuddles!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="pagenum" id="Page_39">[Pg 39]</span>
+<span class="ml0">Whiz-z! whiff! off to your flowers!</span><br>
+<span class="ml0">Buzz ’mid the perfume of jasmine bowers!</span><br>
+<span class="ml0">Chatter and chirrup, my king of the fays,</span><br>
+<span class="ml0">And laugh at the song that I sing in your praise.</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp86" id="image039" style="max-width: 19.375em;">
+  <img class="w100" src="images/image039.jpg" alt="A hummingbird">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_40">[Pg 40]</span></p>
+
+<h2 class="nobreak" id="THE_ROAD-RUNNER">THE ROAD-RUNNER</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image040-a.jpg" alt="">
+</figure>
+
+<p class="drop-cap">A GRAY-STREAKED road-runner scurrying by<br>
+<span class="ml0">In a sage-brush valley, I happened to spy,—</span><br>
+<span class="ml0">Long-legged and thin-billed, with a stretched-out tail,</span><br>
+<span class="ml0">And a comical body as thin as a rail!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Oh surely, I thought, what a sad slim fowl</span><br>
+<span class="ml0">Compared with his neighbor the well-fed owl!</span><br>
+<span class="ml0">Till he pounced on a snake with a rapturous squeak,</span><br>
+<span class="ml0">And rapped the poor reptile a clip with his beak.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Then why is he nothing but feathers and skin?</span><br>
+<span class="pagenum" id="Page_41">[Pg 41]</span>
+<span class="ml0">Is it running so fast that has worn him so thin?</span><br>
+<span class="ml0">Just think what would happen, my lad, to you,</span><br>
+<span class="ml0">If you ran all day like a ground cuckoo.</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp100" id="image041" style="max-width: 32.125em;">
+  <img class="w100" src="images/image041.jpg" alt="A road-runne">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_42">[Pg 42]</span></p>
+
+<h2 class="nobreak" id="THE_BURROWING_OWL">THE BURROWING OWL</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image042-m.jpg" alt="">
+</figure>
+
+<p class="drop-cap">MY blinkety owlet atop of your mound,<br>
+<span class="ml0">Is your mate tucked away in a hole in the ground?</span><br>
+<span class="ml0">You bare-footed gnome in your striped suit of dun,</span><br>
+<span class="ml0">With your fluffy white babies that bask in the sun!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">See her bobbing and blinking</span><br>
+<span class="ml0">As if she were thinking</span><br>
+<span class="ml0">Of the poor lady cricket</span><br>
+<span class="ml0">That chirps in the thicket!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">With a snap and a chatter</span><br>
+<span class="ml0">Mrs. Owlet is at her,</span><br>
+<span class="pagenum" id="Page_43">[Pg 43]</span>
+<span class="ml0">And whisk! she is beaten</span><br>
+<span class="ml0">And crunched up and eaten!—</span><br>
+<span class="ml0">That poor lady cricket</span><br>
+<span class="ml0">That chirped in the thicket!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">My blinkety owlet, go down in your hole,</span><br>
+<span class="ml0">And sleep in your nest like a squirrel or mole!</span><br>
+<span class="ml0">Who’d think that a bird could have toes for a trowel</span><br>
+<span class="ml0">To grub in the ground like a burrowing owl!</span></p>
+</div></div></div></div>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_44">[Pg 44]</span></p>
+
+<h2 class="nobreak" id="THE_CRESTED_JAY">THE CRESTED JAY</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image044-t.jpg" alt="">
+</figure>
+
+<p class="drop-cap">THE jay is a jovial bird,—heigh-ho!<br>
+<span class="ml2">He chatters all day</span><br>
+<span class="ml2">In a frolicsome way</span><br>
+<span class="ml0">With the murmuring breezes that blow,—heigh-ho!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml2">Hear him noisily call</span><br>
+<span class="ml2">From a red-wood tree tall</span><br>
+<span class="ml0">To his mate in the opposite tree, heigh-ho!</span><br>
+<span class="ml2">Saying: “How do you do?”</span><br>
+<span class="ml2">As his top-knot of blue</span><br>
+<span class="ml0">Is raised as polite as can be,—heigh-ho!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml2">Oh impudent jay</span><br>
+<span class="ml2">With your plumage so gay</span><br>
+<span class="pagenum" id="Page_45">[Pg 45]</span>
+<span class="ml0">And your manners so jaunty and free,—heigh-ho!</span><br>
+<span class="ml2">How little you guessed</span><br>
+<span class="ml2">When you robbed the wren’s nest,</span><br>
+<span class="ml0">That any stray fellow would see,—heigh-ho!</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp37" id="image045" style="max-width: 18.5625em;">
+  <img class="w100" src="images/image045.jpg" alt="Any stray fellow would see">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_46">[Pg 46]</span></p>
+
+<h2 class="nobreak" id="TROUBLE_IN_THE_TREES">TROUBLE IN THE TREES</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image046-t.jpg" alt="">
+</figure>
+
+<p class="drop-cap">THE birds had a meeting,—<br>
+<span class="ml2">The owl was judge;</span><br>
+<span class="ml0">But a jay came along</span><br>
+<span class="ml2">And said ’twas all fudge.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">With a quill in his ear</span><br>
+<span class="ml2">The shore-lark was clerk;</span><br>
+<span class="ml0">The wren was a witness,</span><br>
+<span class="ml2">And how she did perk!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">The king-bird was sheriff</span><br>
+<span class="ml2">And brought in the shrike,</span><br>
+<span class="ml0">When a goldfinch could scarcely</span><br>
+<span class="ml2">Conceal her dislike.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">What talking and squawking,</span><br>
+<span class="ml2">What whetting of bills!</span><br>
+<span class="pagenum" id="Page_47">[Pg 47]</span>
+<span class="ml0">What ruffling of feathers,</span><br>
+<span class="ml2">What bristling of quills!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Till a fox heard the chatter</span><br>
+<span class="ml2">And pounced on the jay,</span><br>
+<span class="ml0">When swallows and sparrows</span><br>
+<span class="ml2">And all flew away!</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp68" id="image047" style="max-width: 21.3125em;">
+  <img class="w100" src="images/image047.jpg" alt="An owl">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_48">[Pg 48]</span></p>
+
+<h2 class="nobreak" id="THE_SQUIRREL">THE SQUIRREL</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image048-i.jpg" alt="">
+</figure>
+
+<p class="drop-cap">IT must be risky<br>
+<span class="ml0">To frolic so frisky</span><br>
+<span class="ml0">Up in a swaying tree;</span><br>
+<span class="ml0">To scamper and skip</span><br>
+<span class="ml0">On a pine tree’s tip</span><br>
+<span class="ml0">As you chatter away at me!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Now what’s your hurry,</span><br>
+<span class="ml0">You wood-imp furry,</span><br>
+<span class="ml0">In your snug little suit of gray?</span><br>
+<span class="ml0">You romp and rolic</span><br>
+<span class="ml0">With fun and frolic</span><br>
+<span class="ml0">Like wind with the leaves at play.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">O nervous nixie</span><br>
+<span class="ml0">With ways so trixie,</span><br>
+<span class="pagenum" id="Page_49">[Pg 49]</span>
+<span class="ml0">Fidgety sprite so frail!</span><br>
+<span class="ml0">Sit up and munch</span><br>
+<span class="ml0">At your pine-nut lunch</span><br>
+<span class="ml0">In the shade of your bushy tail!</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp83" id="image049" style="max-width: 21.4375em;">
+  <img class="w100" src="images/image049.jpg" alt="A squirrel munching a pine-nut">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_50">[Pg 50]</span></p>
+
+<h2 class="nobreak" id="THE_POLLIWOG_THAT_LOST_ITS_TAIL">THE POLLIWOG THAT LOST ITS
+TAIL</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image050-a.jpg" alt="">
+</figure>
+
+<p class="drop-cap">A WIGGLY little polliwog lived in a pool<br>
+<span class="ml0">On the edge of a stream where the water was cool,</span><br>
+<span class="ml0">Till one day he turned very green and pale</span><br>
+<span class="ml0">For he found that he surely was losing his tail,</span><br>
+<span class="ml0">And legs were sprouting and he caught the croup</span><br>
+<span class="ml0">As he crawled up the bank with a hoarse, “Ge-loup!</span><br>
+<span class="ml0">Ca-thump, ca-lump, ca-chug, ca-chook!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Oh what can have happened?” he asked with a croak;</span><br>
+<span class="pagenum" id="Page_51">[Pg 51]</span>
+<span class="ml0">“This seems like a regular bull-frog joke.”</span><br>
+<span class="ml0">Then he stretched his legs for a mighty jump,</span><br>
+<span class="ml0">And right in the water he landed ka-plump;</span><br>
+<span class="ml0">Which made him smile from ear to ear,</span><br>
+<span class="ml0">For he felt so very delightfully queer</span><br>
+<span class="ml0">As he called to his mate, “I’m a frog, my dear!”</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp97" id="image051" style="max-width: 20.1875em;">
+  <img class="w100" src="images/image051.jpg" alt="Frog stretches his legs for a mighty jump">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_52">[Pg 52]</span></p>
+
+<h2 class="nobreak" id="THE_HORNED_TOAD">THE HORNED TOAD</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image052a-h.jpg" alt="">
+</figure>
+
+<p class="drop-cap">HORNYKINS, Hornykins, open your eye,<br>
+<span class="ml0">For close to your nose is a blue-bottle fly!</span><br>
+<span class="ml0">Toadykins ruffle your spines and your frills</span><br>
+<span class="ml0">And scurry away on the rocks to the hills!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Little squat goblin, all bristling with spikes,</span><br>
+<span class="ml0">Flattened-out lizard that nobody likes,</span><br>
+<span class="ml0">Stone-colored hermit of sage-brush and sand,</span><br>
+<span class="ml0">You’re the drollest hobgoblin of no-baby’s land!</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp100" id="image052b" style="max-width: 31.3125em;">
+  <img class="w100" src="images/image052b.jpg" alt="Horned toad">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_53">[Pg 53]</span></p>
+
+<h2 class="nobreak" id="A_FAIRY_IN_A_FLOWER">A FAIRY IN A FLOWER</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image053-a.jpg" alt="">
+</figure>
+
+<p class="drop-cap">A TINY gold fairy flew into a flower<br>
+<span class="ml0">One morning at cock-crow, to hide from a shower;</span><br>
+<span class="ml0">The drops fell a patter upon his tent roof,</span><br>
+<span class="ml0">But what did it matter while leaves were rain proof?</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">He found in the flower fine honey to eat;</span><br>
+<span class="ml0">“So-so,” sang the fairy, “the food here is sweet!</span><br>
+<span class="ml0">No prince in his palace fares better than I,</span><br>
+<span class="ml0">Alone in my chalice with storms blowing by!”</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Now what do you think is the name of this fairy</span><br>
+<span class="ml0">Who hid from the shower in lily-bell airy?</span><br>
+<span class="pagenum" id="Page_54">[Pg 54]</span><span class="ml0">His coat is bright yellow, black banded with fuzz;—</span><br>
+<span class="ml0">This bumble-bee gay with his musical buzz!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_55">[Pg 55]</span></p>
+
+<h2 class="nobreak" id="BUTTERCUP">BUTTERCUP</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image055a-b.jpg" alt="">
+</figure>
+
+<p class="drop-cap">BUTTERCUP, buttercup,<br>
+<span class="ml0">Why don’t you hurry up</span><br>
+<span class="ml2">Out of the ground so cold!</span><br>
+<span class="ml0">With your little coat yellow,</span><br>
+<span class="ml0">You dear little fellow,</span><br>
+<span class="ml2">Why doesn’t your blossom unfold?</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp33" id="image055b" style="max-width: 13.9375em;">
+  <img class="w100" src="images/image055b.jpg" alt="Waiting for the buttercup blossom to unfold">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_56">[Pg 56]</span></p>
+
+<h2 class="nobreak" id="THE_COLUMBINE">THE COLUMBINE</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image056-f.jpg" alt="">
+</figure>
+
+<p class="drop-cap">FIVE doves the fairies took away<br>
+<span class="ml0">To the deep dark wood one summer day,</span><br>
+<span class="ml0">And they hung them up on a slender spray,—</span><br>
+<span class="ml2">Heigh-ho for the columbine!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Red and gold were the doves they took;</span><br>
+<span class="ml0">With heads outstretched the birdlings shook,</span><br>
+<span class="ml0">Till the fairies sang them to sleep by the brook,—</span><br>
+<span class="ml2">Heigh-ho for the columbine!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_57">[Pg 57]</span></p>
+
+<h2 class="nobreak" id="THE_LEOPARD_LILY">THE LEOPARD LILY</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image057-i.jpg" alt="">
+</figure>
+
+<p class="drop-cap">IN the forest stilly<br>
+<span class="ml0">The leopard lily</span><br>
+<span class="ml0">Sways on her stem so stately;</span><br>
+<span class="ml0">Tall as a child</span><br>
+<span class="ml0">In the mountains wild,</span><br>
+<span class="ml0">She stands and nods sedately.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Orange and red</span><br>
+<span class="ml0">Is her dappled head</span><br>
+<span class="ml0">And her anthers brown are a-quiver;</span><br>
+<span class="ml0">O fie on you, lily,</span><br>
+<span class="ml0">So vain and silly</span><br>
+<span class="ml0">To look at yourself in the river!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_58">[Pg 58]</span></p>
+
+<h2 class="nobreak" id="JOHNNY_JUMP-UP">JOHNNY JUMP-UP</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image058-a.jpg" alt="">
+</figure>
+
+<p class="drop-cap">AS I walked under a black-oak tree<br>
+<span class="ml0">A little Johnny Jump-up laughed at me.</span><br>
+<span class="ml2">Here you yellow elf,</span><br>
+<span class="ml2">Go and laugh to yourself,</span><br>
+<span class="ml0">Or wink at the cricket that chirps on your knee.</span><br>
+<span class="ml0">Ha ha ha! he he he!</span><br>
+<span class="ml0">Merry Johnny Jump-up, wild and free!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_59">[Pg 59]</span></p>
+
+<h2 class="nobreak" id="SONG_OF_THE_BROWN_LILY">SONG OF THE BROWN LILY</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image059-f.jpg" alt="">
+</figure>
+
+<p class="drop-cap">FAIRY bells of green and brown<br>
+<span class="ml0">Hanging high in a fairy town,</span><br>
+<span class="ml0">With cloth of gold beneath them spread</span><br>
+<span class="ml0">And mossy nooks for the fairies’ bed!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Who is it rings the fairy bells,</span><br>
+<span class="ml0">Ding dong! ding dong! down in the dells!</span><br>
+<span class="ml0">Who is it flits to the fairies’ ball?</span><br>
+<span class="ml0">The bee and the beetle have heard their call,</span><br>
+<span class="ml0">Ding dong! ding dong! down in the dells!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_60">[Pg 60]</span></p>
+
+<h2 class="nobreak" id="SHOOTING_STAR_FLOWERS">SHOOTING STAR FLOWERS</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image060-s.jpg" alt="">
+</figure>
+
+<p class="drop-cap">STARS of childhood,<br>
+<span class="ml0">Stars of the wildwood,</span><br>
+<span class="ml2">Shooting stars of purple and pink,</span><br>
+<span class="ml0">Stars that hang in trembling showers,</span><br>
+<span class="ml0">Stars of spring that are more than flowers,</span><br>
+<span class="ml2">Swinging blithe at the cañon’s brink!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Birds are playing</span><br>
+<span class="ml0">Above you, swaying,</span><br>
+<span class="ml2">Beloved stars of the woodland spring!</span><br>
+<span class="ml0">Children shout and sing when they see you,</span><br>
+<span class="ml0">And where is the fairy who dares to free you,</span><br>
+<span class="ml2">Joyous spirits that sway and swing!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_61">[Pg 61]</span></p>
+
+<h2 class="nobreak" id="THE_SCARLET_LARKSPUR">THE SCARLET LARKSPUR</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image061-m.jpg" alt="">
+</figure>
+
+<p class="drop-cap">MERRY wee red-coats were frisking and dancing<br>
+<span class="ml2">Down in the rocky glen,</span><br>
+<span class="ml0">And the jolly old sun o’er the mountains was glancing</span><br>
+<span class="ml2">At the merry wee red-coated men.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Each little man had a horn on his head,</span><br>
+<span class="ml0">And the old sun laughed as he got out of bed!</span><br>
+<span class="ml2">The wind played a tune</span><br>
+<span class="ml2">And they danced until noon,</span><br>
+<span class="ml0">And, “A jolly good time we’ve had,” they said.</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_62">[Pg 62]</span></p>
+
+<h2 class="nobreak" id="THE_TRILLIUM">THE TRILLIUM</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image062-o.jpg" alt="">
+</figure>
+
+<p class="drop-cap">O TRILLIUM dear<br>
+<span class="ml0">I am glad you are here,</span><br>
+<span class="ml0">While March rains are pattering,</span><br>
+<span class="ml0">Brooklets are clattering,</span><br>
+<span class="ml0">Kinglets are chattering,</span><br>
+<span class="ml0">And you, pretty thing,</span><br>
+<span class="ml0">Are just smiling and dreaming of spring.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">O shade-loving sprite,</span><br>
+<span class="ml0">The cañon’s delight,—</span><br>
+<span class="ml0">Three petals wine-red,</span><br>
+<span class="ml0">Three leaves broadly spread,</span><br>
+<span class="ml0">You leap from your bed</span><br>
+<span class="ml0">In joy, pretty thing,</span><br>
+<span class="ml0">To sway in the breezes of spring.</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_63">[Pg 63]</span></p>
+
+<h2 class="nobreak" id="BABY_BLUE-EYES">BABY BLUE-EYES</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image063-b.jpg" alt="">
+</figure>
+
+<p class="drop-cap">BONNY baby blue-eyes<br>
+<span class="ml2">Twinkling in the grass,</span><br>
+<span class="ml0">Smiling on the sunny hill</span><br>
+<span class="ml2">To see the children pass!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Of all the flowers of spring-time</span><br>
+<span class="ml2">The fairest and the frailest!</span><br>
+<span class="ml0">There’s gladness in your baby eyes,—</span><br>
+<span class="ml2">The purest and the palest!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_64">[Pg 64]</span></p>
+
+<h2 class="nobreak" id="WHO_KNOWS_ROSALIE">WHO KNOWS ROSALIE?</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image064-w.jpg" alt="">
+</figure>
+
+<p class="drop-cap">WHO knows Rosalie?<br>
+<span class="ml0">There goes Rosalie</span><br>
+<span class="ml0">Out where her roses are growing!</span><br>
+<span class="ml0">The dear little tot</span><br>
+<span class="ml0">With her watering pot</span><br>
+<span class="ml0">Where the daisies are nodding and blowing.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">It’s six o’ the clock</span><br>
+<span class="ml0">And the lily bells rock</span><br>
+<span class="ml0">In the merry warm month of July;</span><br>
+<span class="ml0">And Rosalie tells</span><br>
+<span class="ml0">All the whispering bells</span><br>
+<span class="ml0">Of the tear in the violet’s eye.</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_65">[Pg 65]</span></p>
+
+<h2 class="nobreak" id="TO_A_WILD_ROSE">TO A WILD ROSE</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image065-d.jpg" alt="">
+</figure>
+
+<p class="drop-cap">DEAR little rose, so sweet and fair,<br>
+<span class="ml0">You give your perfume to the air,</span><br>
+<span class="ml0">You give your honey to the bee,</span><br>
+<span class="ml0">And all the day long you smile at me.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">O teach me, little rose, the way</span><br>
+<span class="ml0">To smile at people all the day,</span><br>
+<span class="ml0">To give from my heart-store the sweet</span><br>
+<span class="ml0">To every one I chance to meet.</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_66">[Pg 66]</span></p>
+
+<h2 class="nobreak" id="THE_QUEEN_OF_THE_FAIRIES">THE QUEEN OF THE FAIRIES</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image066-i.jpg" alt="">
+</figure>
+
+<p class="drop-cap">I WANT to go out in the woods and play<br>
+<span class="ml0">That I am the queen of the fairies to-day;</span><br>
+<span class="ml0">So I’ll gather some stars from the midnight sky</span><br>
+<span class="ml0">(There are plenty to spare in the jewels on high)</span><br>
+<span class="ml0">And I’ll have them set in a crown of gold;</span><br>
+<span class="ml0">For a sceptre a tiger lily I’ll hold;</span><br>
+<span class="ml0">A violet bed will be my throne</span><br>
+<span class="ml0">And the beautiful world will be mine alone.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">I’ll make one law my realm to bind,</span><br>
+<span class="ml0">That everybody must just be kind</span><br>
+<span class="ml0">And love all children and flowers and birds</span><br>
+<span class="pagenum" id="Page_67">[Pg 67]</span><span class="ml0">And always speak in gentle words.</span><br>
+<span class="ml0">What a happy land will my kingdom be</span><br>
+<span class="ml0">Where hopes are high and hearts are free!</span></p>
+</div></div></div></div>
+<p><span class="pagenum" id="Page_69">[Pg 69]</span></p>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_70">[Pg 70]</span></p>
+<h2 class="nobreak" id="QUIPS_AND_CRANKS">QUIPS AND CRANKS</h2>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_71">[Pg 71]</span></p>
+<h2 class="nobreak" id="MY_AUNTIE">MY AUNTIE</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image071-h.jpg" alt="">
+</figure>
+
+<p class="drop-cap">HOW would you like to have for an auntie<br>
+<span class="ml0">Kittie ka dink ka dee ka dantie?</span><br>
+<span class="ml0">Kittie ka dink</span><br>
+<span class="ml0">With frolicsome wink,</span><br>
+<span class="ml0">Kittie ka dink</span><br>
+<span class="ml0">With ruffles of pink,</span><br>
+<span class="ml0">Kittie ka dink,—</span><br>
+<span class="ml0">Now what do you think</span><br>
+<span class="ml0">Of Kittie ka dink for an auntie?</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Kittie ka dink ka dee</span><br>
+<span class="ml0">Is as bright as a bumble bee,</span><br>
+<span class="ml0">Kittie ka dink ka dee,</span><br>
+<span class="ml0">She dresses my dolls for me!</span><br>
+<span class="ml0">Kittie ka dink ka dee,—</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="pagenum" id="Page_72">[Pg 72]</span>
+<span class="ml0">If you knew her I’m sure you’d agree</span><br>
+<span class="ml0">That Kittie ka dink</span><br>
+<span class="ml0">With frolicsome wink</span><br>
+<span class="ml0">In ruffles of pink,</span><br>
+<span class="ml0">Is the jolliest kind of an auntie!</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp53" id="image072" style="max-width: 18.6875em;">
+  <img class="w100" src="images/image072.jpg" alt="Kittie ka dink">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_73">[Pg 73]</span></p>
+
+<h2 class="nobreak" id="THE_BEAR_HUNTER">THE BEAR HUNTER</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image073-i.jpg" alt="">
+</figure>
+
+<p class="drop-cap">IF I should meet a grizzly bear<br>
+<span class="ml0">A-roaming from his mountain lair,</span><br>
+<span class="ml0">I’d just get down on hands and knees</span><br>
+<span class="ml0">And growl around among the trees.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Then if my growling didn’t scare</span><br>
+<span class="ml0">That great ferocious grizzly bear,</span><br>
+<span class="ml0">I’d sing a song and at my ease</span><br>
+<span class="ml0">Just try my best the bear to please.</span></p><br>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_74">[Pg 74]</span></p>
+
+<h2 class="nobreak" id="TRYING_TO_PLAY">TRYING TO PLAY</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image074-o.jpg" alt="">
+</figure>
+<p class="drop-cap">O A gentleman dressed in a high top hat<br>
+<span class="ml0">Rode on a hobby-horse just like that.</span><br>
+<span class="ml0">“Mr. Man, Mr. Man, O what is the matter?”</span><br>
+<span class="ml0">“Little boy, let me hear no more of your chatter.”</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">So he pranced and he kicked till his glasses fell off,</span><br>
+<span class="ml0">And he puffed and he choked till it made him cough;</span><br>
+<span class="ml0">Then he stopped and said in his solemn way,</span><br>
+<span class="ml0">“My child, I was merely attempting to play.”</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_75">[Pg 75]</span></p>
+
+<h2 class="nobreak" id="MAGGIE_MULDOON">MAGGIE MULDOON</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image075-o.jpg" alt="">
+</figure>
+
+<p class="drop-cap">O DOWN at Milpitas there was an old hag<br>
+<span class="ml0">Who drove to town with a bobtail nag.</span><br>
+<span class="ml0">She rattled along in a rickety rig,</span><br>
+<span class="ml0">With a red bandana to cover her wig.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">When a wheel came off and she tumbled ka-flop,</span><br>
+<span class="ml0">She hobbled away to the blacksmith shop;</span><br>
+<span class="ml0">And the blacksmith said: “O Maggie Muldoon,</span><br>
+<span class="ml0">If you’ll dance me a breakdown I’ll sing you a tune!”</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_76">[Pg 76]</span></p>
+
+<h2 class="nobreak" id="THE_BOOBITY_BUMPKIN">THE BOOBITY BUMPKIN</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image076-a.jpg" alt="">
+</figure>
+
+<p class="drop-cap">A BOOBITY bumpity bumpkin<br>
+<span class="ml0">Was sent to town with a pumpkin,</span><br>
+<span class="ml0">But he stumbled and tripped</span><br>
+<span class="ml0">As he hippity skipped,</span><br>
+<span class="ml0">And smackety smash went the pumpkin!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_77">[Pg 77]</span></p>
+
+<h2 class="nobreak" id="FARMER_JONESS_GOAT">FARMER JONES’S GOAT</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image077-o.jpg" alt="">
+</figure>
+
+<p class="drop-cap">OLD Farmer Jones had a frisky old goat<br>
+<span class="ml0">That wore a long beard and a hairy black coat,</span><br>
+<span class="ml0">With hoofs on its feet and horns on its head,</span><br>
+<span class="ml0">And a sad hungry look on its face while it fed.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Now what do you think was its favorite caper?</span><br>
+<span class="ml0">It would eat Farmer Jones’s weekly Saturday paper;</span><br>
+<span class="ml0">But the diet was more than the goat could endure,</span><br>
+<span class="ml0">So it fed upon sawdust and rags for a cure.</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_78">[Pg 78]</span></p>
+
+<h2 class="nobreak" id="POOR_MR_MIDAS">POOR MR. MIDAS</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image078-o.jpg" alt="">
+</figure>
+
+<p class="drop-cap">O POOR Mr. Midas did nothing but think<br>
+<span class="ml0">Of the sound that his money made,—chink, chink, chink!</span><br>
+<span class="ml0">He filled his pockets, he filled his shoes,</span><br>
+<span class="ml0">But the more he gathered the less he could use.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">It weighed on his mind till he scarce slept a wink,</span><br>
+<span class="ml0">And then he would dream of the chink, chink, chink.</span><br>
+<span class="ml0">He filled his boxes, he filled his bed,</span><br>
+<span class="ml0">And so there was nothing to fill but his head.</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_79">[Pg 79]</span></p>
+
+<h2 class="nobreak" id="THREE_WISE_MEN">THREE WISE MEN</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image079-t.jpg" alt="">
+</figure>
+
+<p class="drop-cap">THREE wise men sailed away on a bat,<br>
+<span class="ml0">But the one who was bald forgot his hat;</span><br>
+<span class="ml0">The one who made music forgot his fife,</span><br>
+<span class="ml0">And the one who was married forgot his wife.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">The bat flew straight to the Man in the Moon,</span><br>
+<span class="ml0">And they said, “Kind sir, is it night or noon?”</span><br>
+<span class="ml0">So the Man in the Moon his brain he racked</span><br>
+<span class="ml0">And decided the three wise men were cracked.</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_80">[Pg 80]</span></p>
+
+<h2 class="nobreak" id="A_GOBBLER_IN_TROUBLE">A GOBBLER IN TROUBLE</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image080-o.jpg" alt="">
+</figure>
+
+<p class="drop-cap">O WHAT would the turkey gobbler do<br>
+<span class="ml0">If he got the hiccoughs before he was through</span><br>
+<span class="ml0">With his gobble-gobble-gobble-gobble-gobble?</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">I’m sure that he could never see through the joke</span><br>
+<span class="ml0">If he started to gobble and stopped to choke</span><br>
+<span class="ml0">In his gobble-gobble-gobble-gobble-gobble.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">The puffed-out fool would grow red in the face,</span><br>
+<span class="ml0">And the hens would laugh at their lord’s disgrace,</span><br>
+<span class="pagenum" id="Page_81">[Pg 81]</span>
+<span class="ml0">At his gobble, hic! gobble, hic! gobble-gobble-gobble!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_82">[Pg 82]</span></p>
+
+<h2 class="nobreak" id="THE_TALE_OF_A_POOR_LITTLE">THE TALE OF A POOR LITTLE
+WORM</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image082-j.jpg" alt="">
+</figure>
+
+<p class="drop-cap">JUST listen to that,<br>
+<span class="ml0">Rat-atat-tat!</span><br>
+<span class="ml0">“’Tis a woodpecker,” whispered a worm.</span><br>
+<span class="ml0">As he crouched in a cranny</span><br>
+<span class="ml0">He called to his granny,</span><br>
+<span class="ml0">“Hark hark, hark hark,</span><br>
+<span class="ml0">Rap-a-tap on the bark,</span><br>
+<span class="ml0">That noise makes me shiver and squirm!”</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Then a long barbed tongue</span><br>
+<span class="ml0">Right through him was flung,</span><br>
+<span class="ml0">And down in the gizzard he wallowed;</span><br>
+<span class="ml0">It made him grow pale</span><br>
+<span class="ml0">Till he thought of the whale</span><br>
+<span class="pagenum" id="Page_83">[Pg 83]</span>
+<span class="ml0">With Jonah inside,</span><br>
+<span class="ml0">Then he shivered and cried:</span><br>
+<span class="ml0">“’Tis a fatal mistake to be swallowed.”</span></p>
+</div></div></div></div>
+
+<p><span class="pagenum" id="Page_85">[Pg 85]</span></p>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_86">[Pg 86]</span></p>
+<h2 class="nobreak" id="RHYMES_FOR_TODDLERS">RHYMES FOR TODDLERS</h2>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_87">[Pg 87]</span></p>
+<h2 class="nobreak" id="TO_PUSSY_WHITE">TO PUSSY WHITE</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image087-l.jpg" alt="">
+</figure>
+
+<p class="drop-cap">LITTLE white furrykins,<br>
+<span class="ml0">Sly pussie purrykins,</span><br>
+<span class="ml2">Snoozing all day by the grate</span><br>
+<span class="ml0">Pinky-nosed kittie cat,</span><br>
+<span class="ml0">Who wouldn’t pity that</span><br>
+<span class="ml2">Snip of a mouse that you ate!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Hittlety skittlety,</span><br>
+<span class="ml0">Mousie squeaked, “Mercy me!”—</span><br>
+<span class="ml2">Off went his head with a snap;</span><br>
+<span class="ml0">Ere he knew what had jolted him,</span><br>
+<span class="ml0">Kittie had bolted him</span><br>
+<span class="ml2">And stretched herself out for a nap.</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_88">[Pg 88]</span></p>
+
+<h2 class="nobreak" id="CHINA_DOLLS">CHINA DOLLS</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image088-t.jpg" alt="">
+</figure>
+
+<p class="drop-cap">THERE are china cups and china dolls<br>
+<span class="ml2">And Chinamen galore,</span><br>
+<span class="ml0">All huddled in together</span><br>
+<span class="ml2">In a little China store.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">The china cups are pretty</span><br>
+<span class="ml2">And the china dolls, O dear,</span><br>
+<span class="ml0">I wish I had a hundred</span><br>
+<span class="ml2">Sitting round me now, right here.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">But the Chinaman that sells them,</span><br>
+<span class="ml2">With his slits of eyes askew,</span><br>
+<span class="ml0">And hair all braided down his back</span><br>
+<span class="ml2">In such a funny queue!—</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="pagenum" id="Page_89">[Pg 89]</span>
+<span class="ml0">If all his dolls should grow and grow</span><br>
+<span class="ml2">Until like him they grew,</span><br>
+<span class="ml0">And I should have the care of them,</span><br>
+<span class="ml2">O dear, what would I do?</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_90">[Pg 90]</span></p>
+<div class="chapter">
+<h2 class="nobreak" id="DOLLIES_LULLABY">DOLLIE’S LULLABY</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image090-d.jpg" alt="">
+</figure>
+
+<p class="drop-cap">DOLLIE’S in the cradle<br>
+<span class="ml2">Falling fast asleep;</span><br>
+<span class="ml0">Hush, little mamma,</span><br>
+<span class="ml2">Run and take a peep.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Whisper low to dollie:</span><br>
+<span class="ml2">“Dream of pleasant things,</span><br>
+<span class="ml0">Fairies in the doll house</span><br>
+<span class="ml2">A-dance in fairy rings;</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">“Fairies round the cradle</span><br>
+<span class="ml2">Flying to and fro,</span><br>
+<span class="ml0">Singing in the moonlight</span><br>
+<span class="ml2">Fairy music low.”</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Shut are dollie’s eyelids,</span><br>
+<span class="ml2">Cover up her arm;</span><br>
+<span class="pagenum" id="Page_91">[Pg 91]</span><span class="ml0">Keep the little dollie dear</span><br>
+<span class="ml2">Safe from every harm.</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp85" id="image091" style="max-width: 20.25em;">
+  <img class="w100" src="images/image091.jpg" alt="Covering Dollie in the cradle">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_92">[Pg 92]</span></p>
+
+<h2 class="nobreak" id="BABY_LIFE">BABY LIFE</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image092a-w.jpg" alt="">
+</figure>
+
+<p class="drop-cap">WHAT can little baby do?<br>
+<span class="ml0">Clap his hands and coo and coo;</span><br>
+<span class="ml0">Kick and roll and smile and grow,—</span><br>
+<span class="ml0">That is why we love him so!</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp68" id="image092b" style="max-width: 19.4375em;">
+  <img class="w100" src="images/image092b.jpg" alt="Baby">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_93">[Pg 93]</span></p>
+
+<h2 class="nobreak" id="LITTLE_BROTHER">LITTLE BROTHER</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image093-l.jpg" alt="">
+</figure>
+
+<p class="drop-cap">LITTLE brother full of glee,<br>
+<span class="ml0">With dainty hand and dimpled knee,</span><br>
+<span class="ml0">Chubby little laughing boy,</span><br>
+<span class="ml0">Father’s pride and Mother’s joy!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Ringlets gold on shapely head,</span><br>
+<span class="ml0">Smiles that break ere tears have fled,</span><br>
+<span class="ml0">Eyes of blue that open wide,</span><br>
+<span class="ml0">Wondering at the world outside!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Merry spirit, sweetly wild,</span><br>
+<span class="ml0">Why are you, my precious child,</span><br>
+<span class="ml0">Dearer far than any other</span><br>
+<span class="ml0">Loving sister’s little brother?</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_94">[Pg 94]</span></p>
+
+<h2 class="nobreak" id="PLAYING_HORSE">PLAYING HORSE</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image094-h.jpg" alt="">
+</figure>
+
+<p class="drop-cap">HORSE and cart and tinkling lines,<br>
+<span class="ml0">Rattling under the passion vines;</span><br>
+<span class="ml0">Up the road and down the lane</span><br>
+<span class="ml0">And round the yard to the door again!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Babe is driver, snap the whip!</span><br>
+<span class="ml0">Watch the turn and don’t you tip.</span><br>
+<span class="ml0">Nero barks as the chickens scatter,</span><br>
+<span class="ml0">Dust is flying and cart-wheels clatter.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Nell, the cook at the kitchen door,</span><br>
+<span class="ml0">Wonders what the noise is for.</span><br>
+<span class="ml0">Round the house on the run they go</span><br>
+<span class="ml0">Till baby calls to the horsie,—“whoa!”</span></p><br>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_95">[Pg 95]</span></p>
+
+<h2 class="nobreak" id="MY_DONKEY">MY DONKEY</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image095-m.jpg" alt="">
+</figure>
+
+<p class="drop-cap">MY little Donkey is a dear,<br>
+<span class="ml0">We call her Mistress Bunny,</span><br>
+<span class="ml0">Her ears are very long and queer</span><br>
+<span class="ml0">And her voice is O so funny,—</span><br>
+<span class="ml0">Haw-he, haw-he, haw-he!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">I saddle her and bridle her</span><br>
+<span class="ml0">And on her back I climb</span><br>
+<span class="ml0">To ride around the Berkeley streets</span><br>
+<span class="ml0">And have a happy time,—</span><br>
+<span class="ml0">Haw-he, haw-he, haw-he!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">I tied her with a long, long rope</span><br>
+<span class="ml0">Where she could eat the grass,</span><br>
+<span class="ml0">But O my burro broke her rope</span><br>
+<span class="ml0">And ran away, alas!</span><br>
+<span class="ml0">Haw-he, haw-he, haw-he!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_96">[Pg 96]</span></p>
+
+<h2 class="nobreak" id="BABY_IN_THE_BARNYARD">BABY IN THE BARNYARD</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image096-b.jpg" alt="">
+</figure>
+
+<p class="drop-cap">BABY with the big blue eyes,<br>
+<span class="ml0">Tell me why you look so wise</span><br>
+<span class="ml0">When you watch the kitties play,</span><br>
+<span class="ml0">Or old Billy eating hay.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Do the horses talk to you,</span><br>
+<span class="ml0">Baby with the eyes of blue?</span><br>
+<span class="ml0">Can you tell me what they say</span><br>
+<span class="ml0">When they look at you and neigh?</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">And the romping kitties, too,</span><br>
+<span class="ml0">When they cry out, mew, mew, mew,</span><br>
+<span class="ml0">Have they secrets, baby dear,</span><br>
+<span class="ml0">Only meant for you to hear?</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">When the doggie says, bow-wow</span><br>
+<span class="ml0">To the lazy muley-cow,</span><br>
+<span class="pagenum" id="Page_97">[Pg 97]</span>
+<span class="ml0">And the cow replies, moo, moo,</span><br>
+<span class="ml0">Are they talking still to you?</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">And the piggie in her pen,</span><br>
+<span class="ml0">Grunting to the setting hen,</span><br>
+<span class="ml0">Ugh, ugh, ugh, can baby tell</span><br>
+<span class="ml0">What the piggie means to spell?</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Lying in her bed at morn,</span><br>
+<span class="ml0">Baby hears a lusty horn</span><br>
+<span class="ml0">Sounding, rook-a-dook-a-doo!</span><br>
+<span class="ml0">And baby laughs as if she knew.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Baby loves them, one and all,</span><br>
+<span class="ml0">And she answers when they call;</span><br>
+<span class="ml0">And they tell her wondrous tales</span><br>
+<span class="ml0">Of the barnyard, hills and dales.</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_98">[Pg 98]</span></p>
+
+<h2 class="nobreak" id="BABYS_GOOD-NIGHT">BABY’S GOOD-NIGHT</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image098-l.jpg" alt="">
+</figure>
+
+<p class="drop-cap">LITTLE eyes droop in the dim evening light;<br>
+<span class="ml0">Wave your hand, little maiden, good-bye, good-night;</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Throw a kiss to the doggie—he’s wagging his tail—</span><br>
+<span class="ml0">And wave to the muley-cow down in the dale.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Hark! hark! she is ringing good-night with her bell;—</span><br>
+<span class="ml0">Now toss to the kitties a sweet farewell.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Good-night to the birds, in the branches asleep,</span><br>
+<span class="ml0">Good-night to the stars that twinkle and peep;</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="pagenum" id="Page_99">[Pg 99]</span>
+<span class="ml0">Good-night to the horn of the moon in the west,</span><br>
+<span class="ml0">And toddle away to your warm little nest.</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp75" id="image099" style="max-width: 19.125em;">
+  <img class="w100" src="images/image099.jpg" alt="">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_100">[Pg 100]</span></p>
+
+<h2 class="nobreak" id="DOGS">DOGS</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image100-i.jpg" alt="">
+</figure>
+
+<p class="drop-cap">I HAVE many little doggie friends;<br>
+<span class="ml0">There’s Jip who wags at both his ends,</span><br>
+<span class="ml0">And Buddie like a ball of silk,</span><br>
+<span class="ml0">Who laps the cream and sniffs at milk,</span><br>
+<span class="ml0">And Judie with her rubber ball</span><br>
+<span class="ml0">Who never minds me when I call,</span><br>
+<span class="ml0">And Rab who runs before the horse,—</span><br>
+<span class="ml0">I love to hear him bark, of course,</span><br>
+<span class="ml0">’Cept sometimes he most barks in two,</span><br>
+<span class="ml0">And then I wish he’d stop, don’t you?</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_101">[Pg 101]</span></p>
+
+<h2 class="nobreak" id="MY_ANIMALS">MY ANIMALS</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image101-h.jpg" alt="">
+</figure>
+
+<p class="drop-cap">HAVE you seen my little animals<br>
+<span class="ml2">Shut in a paper house?—</span><br>
+<span class="ml0">There’s a donkey and a camel</span><br>
+<span class="ml2">With a kittie and a mouse;</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">There’s a doggie and an elephant,</span><br>
+<span class="ml2">A lion and a bear,</span><br>
+<span class="ml0">All huddled in together,</span><br>
+<span class="ml2">And they never seem to care!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">O I’m very, very hungry</span><br>
+<span class="ml2">And I think I’d like to eat</span><br>
+<span class="ml0">The donkey and the lion</span><br>
+<span class="ml2">And the elephant for meat;</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="pagenum" id="Page_102">[Pg 102]</span>
+<span class="ml0">They are all made out of crackers,</span><br>
+<span class="ml2">And if Mamma says I may,</span><br>
+<span class="ml0">I’ll eat a half a bag of them</span><br>
+<span class="ml2">And give the rest away.</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp33" id="image102" style="max-width: 17em;">
+  <img class="w100" src="images/image102.jpg" alt="By with bag of crackers">
+</figure>
+
+<p><span class="pagenum" id="Page_103">[Pg 103]</span></p>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_104">[Pg 104]</span></p>
+<h2 class="nobreak" id="BROWN_BABY_BALLADS">BROWN BABY BALLADS</h2>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_105">[Pg 105]</span></p>
+<h2 class="nobreak" id="SIX_LITTLE_ESKIMO">SIX LITTLE ESKIMO</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image105-s.jpg" alt="">
+</figure>
+
+<p class="drop-cap">SIX jolly little Eskimo<br>
+<span class="ml0">Lived in the land of ice and snow.</span><br>
+<span class="ml0">They played with their ivory dolls all night</span><br>
+<span class="ml0">In a stuffy igloo with a smoky oil light.</span><br>
+<span class="ml0">I wouldn’t live in a smoky igloo,</span><br>
+<span class="ml0">Would you?</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">They dressed in seal-skin from hood to heel;</span><br>
+<span class="ml0">I wonder how such a suit would feel!</span><br>
+<span class="ml0">They chewed their blubber and smacked their lips</span><br>
+<span class="ml0">And wiggled their toes and finger tips,</span><br>
+<span class="ml0">But I wouldn’t like such food to chew,</span><br>
+<span class="ml0">Would you?</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="pagenum" id="Page_106">[Pg 106]</span>
+<span class="ml0">And when they were tired of eating and play</span><br>
+<span class="ml0">Their mammas stowed them safely away</span><br>
+<span class="ml0">In the big white skin of a polar bear.</span><br>
+<span class="ml0">Six little black heads in a row were there,</span><br>
+<span class="ml0">But I wouldn’t like to be one of that crew,</span><br>
+<span class="ml0">Would you?</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp52" id="image106" style="max-width: 20.0625em;">
+  <img class="w100" src="images/image106.jpg" alt="Little Eskimo dressed in seal-skin">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_107">[Pg 107]</span></p>
+
+<h2 class="nobreak" id="PICCANINNY_LULLABY">PICCANINNY LULLABY</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image107-b.jpg" alt="">
+</figure>
+
+<p class="drop-cap">BAH low mah littl’ honey,<br>
+<span class="ml2">Bah low, littl’ piccaninny boy,</span><br>
+<span class="ml0">Shoo, shoo, littl’ coon, mah sonny,</span><br>
+<span class="ml2">Stop yoh winkin’ at yoh mammy, littl’ joy.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Sh! Sh! de wind comes creepin’,</span><br>
+<span class="ml2">Now cuddle close to mammy—so—so.</span><br>
+<span class="ml0">Quit yoh fussin’, don’ yoh know it’s time foh sleepin’</span><br>
+<span class="ml2">When de moon peeks in an’ tells yoh, littl’ Joe?</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Go to sleep, shut yoh eyes, littl’ coon</span><br>
+<span class="ml2">Or de Voodoo come an’ fetch yoh right away;</span><br>
+<span class="pagenum" id="Page_108">[Pg 108]</span><span class="ml0">Carry yoh cleah up into de moon,</span><br>
+<span class="ml2">An’ den what would yoh poh old mammy say?</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_109">[Pg 109]</span></p>
+
+<h2 class="nobreak" id="THE_MEXICAN_BABIES">THE MEXICAN BABIES</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image109-t.jpg" alt="">
+</figure>
+
+<p class="drop-cap">THE Mexican babies are chubby and gay;<br>
+<span class="ml2">Each family has ten or a dozen,</span><br>
+<span class="ml0">And all in the town are related, they say,</span><br>
+<span class="ml2">From a first to a twentieth cousin.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">The house is adobe, the floor is of dirt;</span><br>
+<span class="ml2">In the patio sheltered and sunny</span><br>
+<span class="ml0">The babies can toddle with never a shirt</span><br>
+<span class="ml2">While their mammas can sing without money.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">If the little black-headed brown baby should cry,</span><br>
+<span class="ml2">Or madre grow sick of his prattle,</span><br>
+<span class="ml0">His tears in an instant his sister can dry</span><br>
+<span class="ml2">With the end of a snake for a rattle.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="pagenum" id="Page_110">[Pg 110]</span>
+<span class="ml0">Their little black dogs are a sight to behold,</span><br>
+<span class="ml2">All hairless and wrinkled as mummies;</span><br>
+<span class="ml0">With blankets about them to keep out the cold,</span><br>
+<span class="ml2">And the babies about them for chummies.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">How happy these imps from the day they are born,—</span><br>
+<span class="ml2">They toddle and tumble in tatters;</span><br>
+<span class="ml0">Their faces are dirty, their clothes are all torn,</span><br>
+<span class="ml2">But nobody thinks that it matters.</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_111">[Pg 111]</span></p>
+
+<h2 class="nobreak" id="THE_LITTLE_PIUTE">THE LITTLE PIUTE</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image111-u.jpg" alt="">
+</figure>
+
+<p class="drop-cap">UP in Winnemucca in Piute land,<br>
+<span class="ml0">Where the hot sun falls on the sage-brush sand,</span><br>
+<span class="ml0">A little papoose in a basket lay,</span><br>
+<span class="ml0">Fat as a badger and ready for play.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Mahali was proud of the way he grew</span><br>
+<span class="ml0">Upon acorn soup and on pine-nut stew;</span><br>
+<span class="ml0">She caught him a lizard and let it wiggle,</span><br>
+<span class="ml0">Which set him off in a Piute giggle.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">But the brush hut is lonely, for father’s not there;</span><br>
+<span class="ml0">In ghost-land he’s hunting the bison and bear.</span><br>
+<span class="pagenum" id="Page_112">[Pg 112]</span>
+<span class="ml0">Soon you will follow; alas—too soon,</span><br>
+<span class="ml0">As your clan moves on toward the setting moon!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_113">[Pg 113]</span></p>
+
+<h2 class="nobreak" id="THE_HONOLULU_BOY">THE HONOLULU BOY</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image113-c.jpg" alt="">
+</figure>
+
+<p class="drop-cap">COCOANUT milk and poi,<br>
+<span class="ml2">Cocoanut curds and fish,</span><br>
+<span class="ml0">For the Honolulu boy,—</span><br>
+<span class="ml2">What more could a baby wish?</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Taro and yams and chicken,—</span><br>
+<span class="ml2">Baby shall have a feast,—</span><br>
+<span class="ml0">Bones of the pig for pickin’,</span><br>
+<span class="ml2">Fat little face well greased!</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">A sleep in the house of grasses,</span><br>
+<span class="ml2">A swim in the cool lagoon,</span><br>
+<span class="ml0">A kiss as the trade wind passes,</span><br>
+<span class="ml2">And a low Kanaka tune!</span></p>
+</div></div></div></div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_114">[Pg 114]</span></p>
+
+<h2 class="nobreak" id="A_SAMOA_SLEEPY-SONG">A SAMOA SLEEPY-SONG</h2>
+</div>
+
+<p class="mtop3"></p>
+<div class="poetry-container2">
+<div class="poetry-container">
+<div class="dpoemlft"><div class="dstanzalft">
+<figure style="max-width: 4.6875em;">
+  <img class="drop-cap" src="images/image114-l.jpg" alt="">
+</figure>
+
+<p class="drop-cap">LIE on your mat, little tama, and sleep;<br>
+<span class="ml2">The pigeon has gone to its rest in the palm;</span><br>
+<span class="ml0">I see the bright moon through the ifi trees peep,</span><br>
+<span class="ml2">And the sleepy waves sing on the coral reef calm.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Sing to my tama, soft waves of the sea;</span><br>
+<span class="ml2">Some day he’ll ride in his rocking canoe,—</span><br>
+<span class="ml0">Ride on your laughing crests, happy and free,</span><br>
+<span class="ml2">Joyous to roll on your rollicking blue.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="pagenum" id="Page_115">[Pg 115]</span>
+<span class="ml0">Sleep, little tama, the bats flutter low,</span><br>
+<span class="ml2">The breeze through the breadfruit-tree sighs to the star;</span><br>
+<span class="ml0">And out on the water, with torches aglow,</span><br>
+<span class="ml2">Your father and brother are fishing afar.</span></p>
+</div></div>
+
+<div class="dpoemlft"><div class="dstanzalft">
+<p><span class="ml0">Tina will tuck the siapo around;</span><br>
+<span class="ml2">Sleep, little chief, for the spirits are nigh!</span><br>
+<span class="ml0">Fish-gods and wind-gods, and gods of the ground</span><br>
+<span class="ml2">Watch my brown baby as round him they fly!</span></p>
+</div></div></div></div>
+<br>
+<figure class="figcenter illowp100" id="image115" style="max-width: 93.8125em;">
+  <img class="w100" src="images/image115.jpg" alt="Lie on your mat, little tama, and sleep">
+</figure>
+<div style='text-align:center'>*** END OF THE PROJECT GUTENBERG EBOOK 75901 ***</div>
+</body>
+</html>
+
