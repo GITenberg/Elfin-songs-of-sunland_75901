@@ -1,0 +1,43 @@
+_repo: Elfin-songs-of-sunland_75901
+_version: 0.0.1
+contributor:
+  artist:
+    agent_name: Keeler, Louise Mapes Bunnell
+    birthdate: 1872
+    deathdate: 1937
+    gutenberg_agent_id: '58206'
+    url: http://www.gutenberg.org/2009/agents/58206
+creator:
+  author:
+    agent_name: Keeler, Charles
+    alias: Keeler, Charles Augustus
+    birthdate: 1871
+    deathdate: 1937
+    gutenberg_agent_id: '58205'
+    url: http://www.gutenberg.org/2009/agents/58205
+    wikipedia: https://en.wikipedia.org/wiki/Charles_Keeler
+description: ''
+edition_note: Fourth edition
+gutenberg_issued: '2025-04-18'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '75901'
+language: en
+pgterms:marc904: https://archive.org/details/elfinsongs00keelrich/page/n5/mode/2up
+pgterms:marc905: 20220504192020keeler
+pgterms:marc906: '1904'
+pgterms:marc907: US
+production_note: Charlene Taylor, Jwala Kumar Sista and the Online Distributed Proofreading
+  Team at https://www.pgdp.net (This file was produced from images generously made
+  available by The Internet Archive/American Libraries.)
+publication_note: '  $aBerkeley :$bLive Oak Publishing Company, $c1904, copyright
+  1914, copyright 1920.'
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Children''s poetry, American'
+- !lcc 'PZ'
+- GITenberg
+title: Elfin songs of sunland
+url: http://www.gutenberg.org/ebooks/75901
