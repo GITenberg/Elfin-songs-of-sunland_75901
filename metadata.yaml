@@ -7,6 +7,9 @@ contributor:
     deathdate: 1937
     gutenberg_agent_id: '58206'
     url: http://www.gutenberg.org/2009/agents/58206
+covers:
+- cover_type: archival
+  image_path: 75901-h/images/cover-page.jpg
 creator:
   author:
     agent_name: Keeler, Charles
@@ -17,6 +20,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/58205
     wikipedia: https://en.wikipedia.org/wiki/Charles_Keeler
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/75901#Elfin-songs-of-sunland
 edition_note: Fourth edition
 gutenberg_issued: '2025-04-18'
 gutenberg_type: Text
